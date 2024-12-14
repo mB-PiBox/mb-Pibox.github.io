@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tawmae Adge</title>
+    <title>Ad Timer</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap" rel="stylesheet">
     <style>
         body {
@@ -176,7 +176,7 @@
                         "Prepare for upcoming ads",
                         message.data.warmupTime / 1000,
                         "https://tawmae.github.io/overlays/ads_1.mp3",
-                        "https://raw.githubusercontent.com/tawmae/tawmae.github.io/refs/heads/main/overlays/ads_1.webp"
+                        "https://raw.githubusercontent.com/mcbaer/mcbaer.github.io/refs/heads/main/overlays/ads_1.webp"
                     );
                 } else if (message.event?.type === "AdRun") {
                     enqueueNotification(
@@ -184,7 +184,7 @@
                         "Ads are currently in progress",
                         message.data.length_seconds,
                         "https://tawmae.github.io/overlays/ads_1.mp3",
-                        "https://raw.githubusercontent.com/tawmae/tawmae.github.io/refs/heads/main/overlays/ads_2.webp"
+                        "https://raw.githubusercontent.com/mcbaer/mcbaer.github.io/refs/heads/main/overlays/ads_2.webp"
                     );
                 }
             };
